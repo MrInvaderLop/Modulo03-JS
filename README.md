@@ -19,9 +19,9 @@ La práctica de la lección gira en torno a este último tema mencionado, donde 
 
 
 ## Utiliza este repositorio
-[Enlace del proyecto en GitHub Pages](https://mrinvaderlop.github.io/Unidad-CSS/)
+[Enlace del proyecto en GitHub Pages](https://mrinvaderlop.github.io/Modulo03-JS/)
 
-[Clona este repositorio aquí](https://github.com/MrInvaderLop/Unidad-CSS.git)
+[Clona este repositorio aquí](https://github.com/MrInvaderLop/Modulo03-JS)
 
 ## Información del autor:
 El desarrollador de este proyecto es Joel López.
