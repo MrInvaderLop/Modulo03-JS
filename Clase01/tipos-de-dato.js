@@ -13,7 +13,7 @@ console.log("Hola Mundo");
     let id = Symbol("id"); // Symbol
 
 
-    // Running code: Determino el tipo de datos
+    // Running code: Determina el tipo de datos
     console.log(typeof nombre);
     console.log(typeof edad);
     console.log(typeof esMayordeEdad);
@@ -22,7 +22,7 @@ console.log("Hola Mundo");
     console.log(typeof numeroGrande);
     console.log(typeof id);
 
-    // Running code: Imprimo los datos
+    // Running code: Imprime los datos
     console.log(nombre);
     console.log(edad);
     console.log(esMayordeEdad);
