@@ -3,25 +3,25 @@
 let nota = Math.floor(Math.random()*101); //Me genera números aleatorios entre 0 y 100
 
 //Usando una concatenación para transmitir el mensaje
-console.log('Hola alumno, tu calificación es: ' + nota)
+console.log('Hola alumno, tu calificación es: ' + nota);
 
 if (nota >= 90){
-    console.log("¡Excelente!")
+    console.log("¡Excelente!");
 } else if (nota >= 75 && nota <= 89){
-    console.log("¡Bien!")
+    console.log("¡Bien!");
 } else if (nota >= 60 && nota <= 74){
-    console.log("Suficiente")
+    console.log("Suficiente");
 } else {
-    console.log("Reprobado")
+    console.log("Reprobado");
 };
 
 // Mencionar si está aprobado o no
-const notaAprobatoria = 60
+const notaAprobatoria = 60;
 
 if (nota >= notaAprobatoria){
-    console.log("Aprobaste")
+    console.log("Aprobaste");
 } else {
-    console.log("Suerte para la próxima...")
+    console.log("Suerte para la próxima...");
 }
 
 
