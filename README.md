@@ -23,6 +23,12 @@ Gracias a estos conocimientos, ahora somos capaces de desarrollar programas bás
 
 ![Código de Clase01](./img/codeclase02.png)
 
+### Clase 03: Arreglos y Ciclos en JavaScript
+En esta práctica se exploró el uso de arreglos y ciclos en JavaScript, dos herramientas fundamentales para la manipulación de datos y la automatización de procesos. A través del desarrollo de un programa para la administración de una frutería, se aplicaron estos conceptos para organizar, contar y gestionar el inventario de frutas de forma eficiente.
+
+Se emplearon arreglos para almacenar las diferentes categorías de frutas, permitiendo agruparlas y acceder a ellas de manera ordenada. Además, se utilizaron ciclos como *for* y *while* para recorrer estos arreglos y contar las frutas disponibles. Para la realización de esta práctica tuve que investigar un poco más porque tal cual nos habían enseñado no vi clara la forma de hacerlo.
+
+![Código de Clase01](./img/codeclase03.png)
 
 
 ## Utiliza este repositorio
@@ -31,4 +37,4 @@ Gracias a estos conocimientos, ahora somos capaces de desarrollar programas bás
 [Clona este repositorio aquí](https://github.com/MrInvaderLop/Modulo03-JS)
 
 ## Información del autor:
-El desarrollador de este proyecto es Joel López.
+El desarrollador de este proyecto es Joel López&reg;.
