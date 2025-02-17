@@ -1,3 +1,10 @@
+/* CICLO WHILE
+Es útil cuando no sabemos cuántas veces necesitaremos repetir un proceso antes de que se cumpla una condición.
+
+Estructura: 
+while (condición) {
+    bloque de código a ejecutar
+}*/
 
 let contador = 0;
 
@@ -67,16 +74,31 @@ console.log("El texto tiene: ", counter, " vocales")
 
 // Tabla de multiplicar: Solicitar número y desplegar su tabla
 let value;
-
+let multi = 0;
+let resultado;
 
 do{
     value = parseInt(prompt("Ingrese un número: "));
-} while(respuesta <= 20)
+} while(respuesta <= 20 || respuesta >= 0)
+
+while (multi <= 20){
+    resultado = value * multi;
+    console.log(value, "x", multi, "=", resultado);
+    multi++;
+}
 
 
 // Contar los dígitos de un número
+let ingnum = prompt("Ingrese un número:");
+ingnum = Math.abs(parseInt(ingnum)); // parseInt=convierte a entero, Math.abs=convierte a número positivo
+
+if (isNaN(ingnum)) {
+    console.log("No ingresaste un número válido.");
+} else {
+    let cantidadDigitos = ingnum.toString().length;
+    console.log("El número tiene", cantidadDigitos, "dígito(s).");
+}
 
 
 // Obtener la suma de los dígitos de un número.
-
 // Encontrar el número mayor de un arreglo
