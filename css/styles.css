@@ -42,9 +42,10 @@ header a img {
     height: auto; 
 }
 
-header a span{
+header span{
     color: #B5C2BF;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80%;
 }
 
 main{
