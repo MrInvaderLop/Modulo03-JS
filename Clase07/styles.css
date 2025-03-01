@@ -43,6 +43,8 @@ label{
 input{
     width: 96%;
     padding: 1%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 button{

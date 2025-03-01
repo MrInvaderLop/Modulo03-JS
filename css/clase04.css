@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.1px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+background: #b6b7bb;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: #353535;    /* color of the scroll thumb */
+border: 3px solid #353535;  /* creates padding around scroll thumb */
+}
+
+body{
+    background-color: #b6b7bb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #353535;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 2px 5px #1E1D1D;
+    padding: 0.6%;
+}
+
+header a {
+    display: flex;
+    align-items: center; 
+}
+
+header a img {
+    max-width: 100px;
+    height: auto; 
+}
+
+header span{
+    color: #B5C2BF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);    
+}
+
+.image-container{
+    background: url('https://img.freepik.com/foto-gratis/vista-frontal-libros-escaleras-apilados-espacio-copia-dia-educacion_23-2149241015.jpg?t=st=1740810184~exp=1740813784~hmac=c79b485f1e7c8ba89bd65fd09c386216e7ce64487d756625fc53b30e1d03062d&w=740') no-repeat center center/cover;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8%;
+    height: 100vh;
+    color: #353535;
+}
+
+.title{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    border-bottom: solid #1E1D1D;
+}
+
+button{
+    margin: 0% 15% 3% 15%;
+    background-color:#E7C4C4;
+    border: solid 2px;
+    padding: 2%;
+    font-size: 70%;
+    border-radius: 5px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/clase04.css">
+    <title>Funciones</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="https://devf.la/"><img src="/img/Devflogo.png" alt="Logo DEV.F"></a>
+        <span id="fecha-actual"></span>
+        <span id="clima"></span>
+        <a href="https://www.facebook.com/becalos/?locale=es_LA"><img src="/img/Becaloslogo.png" alt="Logo Bécalos"></a>
+    </header>
+
+
+    <main>
+
+        <section class="text-container">
+            <div class="title">
+                <h1>CLASE O4</h1>
+                <h2>Seguimiento de libros</h2>
+            </div> 
+
+            <button onclick="mostrarLibros()">Mostrar libros</button>
+            <ul id="listaLibros"></ul>
+
+            <h3>Agregar Nuevo Libro</h3>
+            <input type="text" id="nuevoLibro" placeholder="Escribe el título">
+            <button onclick="agregarLibro()">Agregar</button>
+
+        </section> 
+
+        <section class="image-container">
+        </section>
+
+    </main>
+
+    <script src="functions.js"></script>
+    <script src="/index.js"></script>
+    <script src="práctica.js"></script>
+
+</body>
+</html>
