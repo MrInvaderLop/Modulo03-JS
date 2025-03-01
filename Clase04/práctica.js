@@ -24,6 +24,3 @@ let librosLeidos = ["Los despodeídos", "Hábitos atómicos", "Orgullo y prejuic
             alert("Por favor, escribe un título válido.");
         }
     }
-//Añadir elemento al array
-//Eliminar elemento del array
-//Mostar libros leídos

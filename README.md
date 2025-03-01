@@ -32,6 +32,14 @@ Agrego en este repositorio la carpeta de la clase con las notas tomadas, algunos
 
 ![Código de Clase01](./img/codeclase03.png)
 
+### Clase 04: Funciones
+Para esta clase exploramos la amplia gama de funciones que podemos utilizar en nuestros sitios para dinamizarlos. He creado una aplicación sencilla en JavaScript que permite gestionar una lista de libros leídos. Su objetivo es mostrar los libros almacenados y permitir al usuario agregar nuevos títulos dinámicamente.
+Se hizo uso de un array para almacenar los libros y todo lo hemos ligado a una página web para mayor visibilidad.
+
+![Imagen Clase04](./img/imgclase04.png)
+
+
+
 
 ## Utiliza este repositorio
 [Enlace del proyecto en GitHub Pages](https://mrinvaderlop.github.io/Modulo03-JS/)
