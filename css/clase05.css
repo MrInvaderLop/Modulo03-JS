@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.1px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+background: #b6b7bb;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: #353535;    /* color of the scroll thumb */
+border: 3px solid #353535;  /* creates padding around scroll thumb */
+}
+
+body{
+    background-color: #b6b7bb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #353535;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 2px 5px #1E1D1D;
+    padding: 0.6%;
+}
+
+header a {
+    display: flex;
+    align-items: center; 
+}
+
+header a #home{
+    max-width: 30px;
+}
+
+header a img {
+    max-width: 180px;
+    height: auto; 
+}
+
+header span{
+    color: #B5C2BF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);    
+}
+
+.image-container{
+    background: url('https://img.freepik.com/foto-gratis/arreglo-creativo-diferentes-libros-cafe_23-2148851040.jpg?t=st=1740862704~exp=1740866304~hmac=8f91c0ba8f29b770d0f06761ef9a1f6a321412440ca4ff64f53dea18f31f6470&w=740') no-repeat center center/cover;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    padding: 8%;
+    height: 120vh;
+    color: #353535;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 500%;
+    border-bottom: solid #1E1D1D;
+}
+
+h2{
+    font-size: 250%;
+}
+
+button{
+    margin: 0% 15% 3% 15%;
+    background-color:#D2CBB1;
+    border: solid 2px #353535;
+    padding: 2%;
+    font-size: 100%;
+    border-radius: 5px;
+}
+
+#listaLibros{
+    font-size: 110%;
+    list-style: none;
+    justify-items: center;
+    padding: 0 15% 0 15%;
+}
+
+#listaLibros li{
+    margin-top: 1%;
+}
+
+
+.agregarlib{
+    padding-top: 6%;
+    display: flex;
+    flex-direction: column;
+}
+
+.agregarlib h3{
+    margin-bottom: 2%;
+    font-size: 200%;
+}
+
+#nuevoLibro{
+    font-size: 110%;
+    width: 100%;
+    height: 200%;
+    border: solid 2px #353535;
+    background-color:#b6b7bb;
+    padding: 2%;
+    margin-bottom: 2%;
+}

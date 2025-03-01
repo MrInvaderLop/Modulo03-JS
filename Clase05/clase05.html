@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/clase05.css">
+    <link rel="shortcut icon" href="../img/object-group-solid.svg" type="image/x-icon">
+    <title>Objetos</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="https://devf.la/"><img src="../img/Devflogo.png" alt="Logo DEV.F"></a>
+        <span id="fecha-actual"></span>
+        <a href="../index.html"><img id="home" src="../img/house.png"></a>
+        <span id="clima"></span>
+        <a href="https://www.facebook.com/becalos/?locale=es_LA"><img src="../img/Becaloslogo.png" alt="Logo Bécalos"></a>
+    </header>
+
+
+    <main>
+        
+        <section class="image-container">
+        </section>
+
+        <section class="text-container">
+            <div class="title">
+                <h1>CLASE O5</h1>
+                <h2>Crear objeto a partir de un libro</h2>
+            </div> 
+
+            <button onclick="mostrarLibros()">Mostrar mis libros leídos</button>
+            <ul id="listaLibros"></ul>
+
+            <div class="agregarlib">
+                <h3>Agregar un nuevo libro</h3>
+                <input type="text" id="nuevoLibro" placeholder="Escribe el título">
+                <button onclick="agregarLibro()">Agregar</button>
+            </div>
+
+        </section> 
+
+    </main>
+
+    <script src="functions.js"></script>
+    <script src="/index.js"></script>
+    <script src="práctica.js"></script>
+
+</body>
+</html>
