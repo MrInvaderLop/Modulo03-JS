@@ -65,7 +65,3 @@ if (usuario === user && password === pass){
 usando */
 
 // Podemos capturar lo que el usuario escribe en tiempo real en un campo de texto
-
-
-
-// Ejercicios
