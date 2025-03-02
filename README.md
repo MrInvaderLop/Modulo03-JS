@@ -5,7 +5,7 @@ Este repositorio ha sido iniciado en febrero de 2025 como un espacio para compar
 ## Funcionamiento del sitio
 Dentro de este repositorio podrá encontrar, en cada una de las carpetas, las prácticas realizadas como proyectos durante cada lección. 
 Al explorar cada uno de los archivos se percatará que todo está claramente comentado para su entendimiento.
-Proximamente, me daré a la tarea de hacer la respectiva página de presentación para el módulo para un atractivo más visual.
+He desplegado mi sitio en Git Hub Pages, ahí podrán acceder a las práctica de cada sesión más facilmente, a partir de la cuarta. Se navega usando el menú ubicado en index y mientras estás en cada página puedes regresar usando en icono de la casa.
 
 ## Contenido
 A continuación, se compilará una reseña del trabajo llevado a cabo en cada una de las clases del curso. Esta sección se actualizará periódicamente hasta la culminación del módulo 03.
@@ -44,6 +44,21 @@ En nuestro código, usamos objetos para representar libros. Cada libro es un obj
 Luego, lo guardamos en un array de libros y en localStorage, para que la información no se pierda al actualizar la página. Así, cada libro ingresado es un objeto dentro de una lista que podemos modificar o mostrar cuando queramos. 
 
 ![Imagen Clase05](./img/imgclase05.png)
+
+### Clase 06: Introducción a DOM
+El DOM (Document Object Model) es una representación estructurada de una página web que permite a JavaScript manipular dinámicamente su contenido y apariencia. En nuestra caja de comentarios, hemos utilizado el DOM para capturar elementos como el campo de entrada del comentario y el botón de publicación, permitiendo que los usuarios agreguen comentarios en tiempo real. También hemos creado dinámicamente nuevos elementos, como la sección donde se muestran los comentarios, dentro de la cual cada comentario contiene la imagen del usuario, su nombre, la fecha y el texto ingresado. Además, hemos implementado un botón de eliminación que permite borrar comentarios específicos mediante la manipulación del DOM y localStorage, lo que garantiza que los comentarios persistan incluso si la página se recarga. A través de estas interacciones, hemos aprendido a modificar la estructura y contenido de la página web de manera dinámica, creando una experiencia interactiva con JavaScript.
+
+![Imagen Clase06](./img/imgclase06.png)
+
+### Clase 08: Proyecto final DOM
+Para mi proyecto final, he desarrollado una aplicación interactiva utilizando el DOM (Document Object Model), donde los usuarios pueden iniciar sesión y participar en una caja de comentarios. Actualmente, hay tres usuarios registrados y cualquier persona puede acceder con sus credenciales para comentar. Cada comentario publicado se almacena localmente en el navegador mediante localStorage, lo que permite que los datos se conserven incluso si la página se recarga. Además, cada comentario muestra la imagen de perfil del usuario, su nombre, la fecha y el texto ingresado, organizados en una estructura dinámica creada con JavaScript. 
+También implementé una función para eliminar comentarios, lo que permite una gestión más flexible del contenido. La aplicación hace un uso eficiente del DOM para capturar elementos, modificar el contenido de la página en tiempo real y gestionar eventos como la publicación y eliminación de comentarios. Como mejora futura, planeo agregar la opción de crear nuevos usuarios, permitiendo así una experiencia más personalizada y expandiendo las posibilidades de interacción dentro de la aplicación.
+Las cuentas activas son: (usuario) -- (contraseña)
+- ivanfou  --  1234
+- joelop  --  abcd
+- homegue  --  6789
+
+![Imagen Clase06](./img/imgclase08.png)
 
 
 
