@@ -1,24 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     height: 100vh;
     margin: 10;
     font-family: "Montserrat", serif;
-    background-color: #161627;
+    background-color: #10191a;
     color: white;
 }
 
-.food-container{
+.barra-sup{
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-left: 5%;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 2px white;
+    padding: 1%;
 }
 
-img{
-    width: 60vw;
-    height: 50vh;
+.barra-sup img{
+    width: 20%;
+    height: auto;
 }
+
+#bienvenidamsj{
+    font-size: 300%;
+    text-align: center;
+    margin: 0%;
+    padding: 1%;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    padding: 2%;
+}
+
+.news .list-news{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2%;
+    justify-items: center;
+    align-items: center;
+}
+
+.news .list-news a img{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.news .list-news a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
 
 .comment-container{
     display: flex;
@@ -28,7 +72,7 @@ img{
 }
 
 textarea{
-    margin-top: -40px;
+    margin-top: 40px;
     margin-bottom: 10px;
     font-size: 10px;
     height: 10vh;
