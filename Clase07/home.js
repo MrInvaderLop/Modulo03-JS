@@ -50,10 +50,31 @@ function mostrarComentarios() {
 
     commentSection.innerHTML = '';
 
-    comments.forEach((comment) => {
+    comments.forEach((comment, index) => {
         const comentarioSection = document.createElement("section");
-        comentarioSection.classList.add("comentario")
-        comentarioSection.innerHTML = `<img src="${comment.image}" class="user-image"> <strong>${comment.name}</strong>  <br><p>${comment.timestamp}</p><br> ${comment.commentText}`;
+        comentarioSection.classList.add("comentario");
+        comentarioSection.innerHTML = `
+            <div class="datos-comentarista">
+                <div class="data">
+                    <img src="${comment.image}" class="user-image"> 
+                    <div>
+                        <strong>${comment.name}</strong>  
+                        <p class="fecha">${comment.timestamp}</p>
+                    </div>
+                </div>
+                <button class="btn-eliminar" onclick="eliminarComentario(${index})">✘</button>
+            </div>
+            <p class="comentario-texto">${comment.commentText}</p>
+        `;
         commentSection.appendChild(comentarioSection);
     });
+}
+
+function eliminarComentario(index) {
+    let comments = JSON.parse(localStorage.getItem('comments')) || [];
+    
+    comments.splice(index, 1); // Eliminar el comentario según su índice
+
+    localStorage.setItem('comments', JSON.stringify(comments));
+    mostrarComentarios(); // Volver a renderizar los comentarios
 }

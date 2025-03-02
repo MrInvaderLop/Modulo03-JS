@@ -71,9 +71,16 @@ body{
 }
 
 textarea{
-    margin-top: 4%;
+    margin-top: 1%;
     margin-bottom: 4%;
     height: 10vh;
+    border-radius: 10px;
+    padding: 2.5% 6%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    margin-top: 4%;
 }
 
 button{
@@ -81,7 +88,7 @@ button{
     height: 5vh;
     margin-top: 7px;
     margin-left: 30%;
-    margin-bottom: 20%;
+    margin-bottom: 1%;
     cursor: pointer;
     border: none;
     background-color: #ffa108;
@@ -97,23 +104,49 @@ button:hover{
 
 .comentario{
     background-color: white;
-    padding: 1.5%;
+    padding: 2.5% 6% 0.5% 6%;
     margin-top: 2%;
     border-radius: 10px;
     text-align: left;
     color: black;
 }
 
+.datos-comentarista {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2%;
+}
+
+.datos-comentarista .data {
+    display: flex;
+    justify-content: left;
+    align-items: stretch;
+    gap: 5%;
+    width: 40%;
+}
+
+
 .comentario p{
-    font-size: 70%;
+    font-size: 90%;
     line-height: 4px;
-    margin-top: 1%;
+    margin-top: 2.5%;
     color: #4a4e69;
-    margin-bottom: 0.5%;
+    margin-bottom: 4%;
+}
+
+.comentario .fecha{
+    margin-top: 5%;
 }
 
 .user-image{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 100%;
+}
+
+.btn-eliminar{
+    width: 8%;
+    margin: 0;
+    align-items: end;
 }
