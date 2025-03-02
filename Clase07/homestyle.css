@@ -67,14 +67,12 @@ body{
 .comment-container{
     display: flex;
     flex-direction: column;
-    width: 60vw;
-    margin-left: 5%;
+    margin: 5% 20% 5% 20%; 
 }
 
 textarea{
-    margin-top: 40px;
-    margin-bottom: 10px;
-    font-size: 10px;
+    margin-top: 4%;
+    margin-bottom: 4%;
     height: 10vh;
 }
 
@@ -83,14 +81,39 @@ button{
     height: 5vh;
     margin-top: 7px;
     margin-left: 30%;
+    margin-bottom: 20%;
     cursor: pointer;
     border: none;
-    background-color: #4a4e69;
+    background-color: #ffa108;
     color: white;
     border-radius: 15px;
+    font-weight: 700;
 }
 
 button:hover{
-    background-color: #14151d;
+    border: solid 3px white;
     transform: scale(1.05);
+}
+
+.comentario{
+    background-color: white;
+    padding: 1.5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    text-align: left;
+    color: black;
+}
+
+.comentario p{
+    font-size: 70%;
+    line-height: 4px;
+    margin-top: 1%;
+    color: #4a4e69;
+    margin-bottom: 0.5%;
+}
+
+.user-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
 }
