@@ -21,7 +21,7 @@ body{
     background-color: #10191a;
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    align-items: center;
 }
 
 .image-container{
@@ -30,7 +30,8 @@ body{
 }
 
 .container .form-container img{
-    margin: 3% 10% 10% 5%
+    margin: 5% 10% 5% 10%;
+    width: 70%;
     
 }
 
@@ -39,17 +40,19 @@ body{
     display: flex;
     flex-direction: column;
     padding: 3% 7% 3% 7%;
-    margin: 0 10% 0 10%;
     border-radius: 2%;
+    width: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .login-container h1{
     font-size: 200%;
+    text-align: center;
 }
 
 label{
     font-size: 150%;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 input{
@@ -65,13 +68,14 @@ button{
     margin-left: 25%;
     cursor: pointer;
     border: none;
-    background-color: #003049;
-    color: white;
+    background-color: #ffa108;
     border-radius: 15px;
+    padding: 2%;
+    font-weight: 600;
 }
 
 button:hover{
-    background-color: #005678;
+    background-color: #ffa302;
     transform: scale(1.05);
 }
 
