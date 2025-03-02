@@ -38,6 +38,13 @@ Se hizo uso de un array para almacenar los libros y todo lo hemos ligado a una p
 
 ![Imagen Clase04](./img/imgclase04.png)
 
+### Clase 05: Objetos
+En JavaScript, los objetos son estructuras que nos permiten agrupar diferentes tipos de datos en un solo lugar. Son como cajas donde guardamos información relacionada entre sí.
+En nuestro código, usamos objetos para representar libros. Cada libro es un objeto con propiedades como titulo, autor, año, disponibilidad y descripcion.
+Luego, lo guardamos en un array de libros y en localStorage, para que la información no se pierda al actualizar la página. Así, cada libro ingresado es un objeto dentro de una lista que podemos modificar o mostrar cuando queramos. 
+
+![Imagen Clase05](./img/imgclase05.png)
+
 
 
 
