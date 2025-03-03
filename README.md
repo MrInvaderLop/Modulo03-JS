@@ -50,6 +50,12 @@ El DOM (Document Object Model) es una representación estructurada de una págin
 
 ![Imagen Clase06](./img/imgclase06.png)
 
+### Clase 07: Dominando DOM en JavaScript
+Para esta lección creamos un Generador de Contraseñas Aleatorias desarrollado con HTML, CSS y JavaScript. Su propósito es permitir a los usuarios generar contraseñas seguras de acuerdo con sus preferencias. 
+En el formulario, los usuarios pueden definir la longitud y los tipos de caracteres a incluir (mayúsculas, minúsculas, números y símbolos). En JavaScript, implementamos la lógica que recopila las opciones seleccionadas, genera una contraseña aleatoria a partir de un conjunto de caracteres y la muestra en pantalla.
+
+![Imagen Clase07](./img/imgclase07.png)
+
 ### Clase 08: Proyecto final DOM
 Para mi proyecto final, he desarrollado una aplicación interactiva utilizando el DOM (Document Object Model), donde los usuarios pueden iniciar sesión y participar en una caja de comentarios. Actualmente, hay tres usuarios registrados y cualquier persona puede acceder con sus credenciales para comentar. Cada comentario publicado se almacena localmente en el navegador mediante localStorage, lo que permite que los datos se conserven incluso si la página se recarga. Además, cada comentario muestra la imagen de perfil del usuario, su nombre, la fecha y el texto ingresado, organizados en una estructura dinámica creada con JavaScript. 
 También implementé una función para eliminar comentarios, lo que permite una gestión más flexible del contenido. La aplicación hace un uso eficiente del DOM para capturar elementos, modificar el contenido de la página en tiempo real y gestionar eventos como la publicación y eliminación de comentarios. Como mejora futura, planeo agregar la opción de crear nuevos usuarios, permitiendo así una experiencia más personalizada y expandiendo las posibilidades de interacción dentro de la aplicación.
@@ -58,7 +64,7 @@ Las cuentas activas son: (usuario) -- (contraseña)
 - joelop  --  abcd
 - homegue  --  6789
 
-![Imagen Clase06](./img/imgclase08.png)
+![Imagen Clase08](./img/imgclase08.png)
 
 
 

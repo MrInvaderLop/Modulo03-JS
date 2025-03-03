@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.1px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+background: #b6b7bb;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: #353535;    /* color of the scroll thumb */
+border: 3px solid #353535;  /* creates padding around scroll thumb */
+}
+
+body{
+    background-color: #b6b7bb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #353535;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 2px 5px #1E1D1D;
+    padding: 0.6%;
+}
+
+header a {
+    display: flex;
+    align-items: center; 
+}
+
+header a #home{
+    max-width: 30px;
+}
+
+header a img {
+    max-width: 180px;
+    height: auto; 
+}
+
+header span{
+    color: #B5C2BF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);    
+}
+
+.image-container{
+    background: url('https://images.pexels.com/photos/5380635/pexels-photo-5380635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center/cover;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    padding: 8%;
+    height: 120vh;
+    color: #353535;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 500%;
+    border-bottom: solid #1E1D1D;
+}
+
+h2{
+    font-size: 300%;
+}
+
+.contenedor {
+    background: white;
+    padding: 10%;
+    margin: 5% 15%;
+    border-radius: 10px;
+    box-shadow: 0 40px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: larger;
+}
+
+.contenedor p{
+    text-align: left;
+}
+
+.parametros{
+    list-style: none;
+    margin: 8% 4%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 70%;
+}
+
+input, button {
+    margin: 5px;
+    padding: 10px;
+}
+
+.resultado {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
